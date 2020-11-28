@@ -20,7 +20,7 @@
     "lint:phpcs": "./vendor/bin/phpcs src tests --standard=PSR12",
     "lint:prettier": "prettier . --check",
     "postinstall": "composer install --no-interaction",
-    "test": "./vendor/bin/phpunit"
+    "test": "./vendor/bin/phpunit tests"
   },
   "keywords": [
     "twitter",
